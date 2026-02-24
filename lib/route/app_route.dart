@@ -1,0 +1,40 @@
+// routes/app_routes.dart
+abstract class AppRoutes {
+  static const splash = '/splash';
+  static const login = '/login';
+  static const register = '/register';
+  static const home = '/home';
+  static const productSelection = '/product-selection';
+  static const settings = '/settings';
+  static const screenMethodSelection = '/screenMethodSelection';
+  static const layoutDesign = '/layoutDesign';
+  static const quantityPackage = '/quantityPackage';
+  static const storeSelection = '/storeSelection';
+  static const orderSummary = '/orderSummary';
+  static const homePage = '/buyerHomePage';
+  static const payment = '/payment';
+  static const orders = '/buyer/orders';
+  static const stores = '/buyer/stores';
+  static const notifications = '/notifications';
+  static const personalInfo = '/personal-info';
+  static const notificationsSettings = '/notifications-settings';
+  static const language = '/language';
+  static const security = '/security';
+  static const help = '/help';
+  static const personalInfoEdit = '/personal-info-edit';
+  static const changePassword = '/change-password';
+  static const twoFactorAuth = '/two-factor-auth';
+  static const loggedInDevices = '/logged-in-devices';
+  static const logoutAllDevices = '/logout-all-devices';
+  static const orderDetail = '/order-detail';
+  static const storeDetail = '/store-detail';
+  static const storeReviews = '/store-reviews';
+  static const contactStore = '/contact-store';
+  static const storeServices = '/store-services';
+  static const sendMessageToStore = '/send-message-to-store';
+  static const downloadReceipt = '/download-receipt';
+  static const writeReview = '/write-review';
+  static const uploadOemDesign = '/upload-oem-design';
+  static const oemProductSelection = '/oem-product-selection';
+  static const serviceTypeSelection = '/service-type-selection';
+}
